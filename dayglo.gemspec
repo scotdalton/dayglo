@@ -17,8 +17,6 @@ Gem::Specification.new do |s|
   s.files = Dir['lib/**/*'] + ['LICENSE', 'README.md']
   s.test_files = Dir['spec/**/*']
 
-  s.add_dependency 'require_all', '~> 1.3.0'
-
   s.add_development_dependency 'rake', '~> 10.3.0'
   s.add_development_dependency 'rspec', '~> 3.0.0'
 end

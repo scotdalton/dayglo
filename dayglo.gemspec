@@ -1,7 +1,7 @@
 $:.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
-require 'exlibris/aleph/version'
+require 'dayglo/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = 'Library that implements some data structures and algorithms implemented in Ruby'
   s.license     = 'MIT'
 
-  s.files = Dir['lib/**/*'] + ['MIT-LICENSE', 'Rakefile', 'README.md']
+  s.files = Dir['lib/**/*'] + ['LICENSE', 'README.md']
   s.test_files = Dir['spec/**/*']
 
   s.add_dependency 'require_all', '~> 1.3.0'
